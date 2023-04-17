@@ -31,6 +31,10 @@ components and parts stored in the warehouse. A data warehouse is typically a bl
 and multidimensional databases,client/ server architecture, extraction / transformation programs, graphical user interfaces,
 and more.
 ```
+### ELT vs ETL DIAGRAM:
+
+![elt vs etl](https://user-images.githubusercontent.com/74660507/232379648-14faae15-4a1e-4333-a95d-a95dee2da646.png)
+
 #### DATA PIPELINE MODEL:
 
 ![image](https://user-images.githubusercontent.com/74660507/232360360-ccb6db2b-5593-4cb6-81fa-2218cfa1c1cc.png)
@@ -66,7 +70,11 @@ or
 
 a. EXCEL
 
+#### DATA TABLE:
+
 ![image](https://user-images.githubusercontent.com/74660507/232362821-e897c172-9794-4e02-adbb-687644e31558.png)
+
+#### QUERIES & CONNECTIONS:
 
 ![image](https://user-images.githubusercontent.com/74660507/232363401-1d8f607f-00be-492d-bfaf-2d3f72d2f67b.png)
 
@@ -108,13 +116,23 @@ $ python create_tables.py
 
 a. EXCEL
 
+#### PRODUCT DIMENSION TRANSFORMED:
+
 ![image](https://user-images.githubusercontent.com/74660507/232364089-201a5c60-3f27-49e8-8bc2-38a0ace85873.png)
+
+#### ORDER FACT TRANSFORMED:
 
 ![image](https://user-images.githubusercontent.com/74660507/232364510-9ed3e5f1-442c-4def-8df8-d95f8c9cb9bb.png)
 
+#### CUSTOM COLUMN TRANSFORMED:
+
 ![image](https://user-images.githubusercontent.com/74660507/232364582-02f1b580-2695-4621-8759-66d5d669a10d.png)
 
+#### TOTAL SALES TRANSFORMED:
+
 ![image](https://user-images.githubusercontent.com/74660507/232365320-8ea45899-cd69-4c8d-8cb4-057e0a4d9449.png)
+
+#### TOTAL SALES LOADED:
 
 ![image](https://user-images.githubusercontent.com/74660507/232365402-b12a20ad-d7bc-4de8-b2c9-1e7be2315897.png)
 
@@ -164,13 +182,27 @@ $ python etl.py
 
 3. Visualaize and get the report of the data using Chart or Power BI 
 
+#### QUERY DEPENDENCIES:
+
+![query dependencies](https://user-images.githubusercontent.com/74660507/232379743-6a7d105d-127f-4fef-9d00-26a2feaa012c.png)
+
+#### DATA MODEL:
+
 ![image](https://user-images.githubusercontent.com/74660507/232368039-959ac721-e1d6-4c7c-afe8-64bc3e354d9d.png)
+
+#### VISUALIZATION OF PRODUCT ID, CATEGORY NAME & PRODUCT NAME:
 
 ![image](https://user-images.githubusercontent.com/74660507/232370391-f95243c5-e8da-4be5-9026-a8f911c6c40f.png)
 
+#### VISUALIZATION OF COUNT OF TOTAL SALES:
+
 ![image](https://user-images.githubusercontent.com/74660507/232370678-3a08e9d5-9ff6-41ba-a532-51c211756b5e.png)
 
+#### VISUALIZATION OF TOTAL SALES & CATEGORY NAME:
+
 ![image](https://user-images.githubusercontent.com/74660507/232369128-2a355e88-49aa-4f32-ba02-146dc257c655.png)
+
+#### PIVOT TABLE OF TOTAL SALES:
 
 ![image](https://user-images.githubusercontent.com/74660507/232369212-53c82fc6-60db-472f-906b-b6337e8aa367.png)
 
