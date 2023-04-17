@@ -210,10 +210,10 @@ $ python etl.py
 
 ### CONCLUSION:
 
--	Were the higher-priced items more prevalent in some markets?
+-	Were the higher-priced items more prevalent in some markets? <br>
   Yes, higher-priced items are more prevalent in some markets because of the quality and interest of the customers.
   
--	Should inventory be reallocated or prices adjusted based on location?
+-	Should inventory be reallocated or prices adjusted based on location? <br>
   No, inventory does'nt have to be re-allocated for the prices. Prices should be adjusted based on the location and the currency used by the country.
   
 ### RESULT:
