@@ -194,7 +194,7 @@ $ python etl.py
 
 ![image](https://user-images.githubusercontent.com/74660507/232370391-f95243c5-e8da-4be5-9026-a8f911c6c40f.png)
 
-#### VISUALIZATION OF COUNT OF TOTAL SALES:
+#### VISUALIZATION OF COUNT OF SALES AMOUNT:
 
 ![image](https://user-images.githubusercontent.com/74660507/232370678-3a08e9d5-9ff6-41ba-a532-51c211756b5e.png)
 
