@@ -155,24 +155,6 @@ SalesTotalCost money,
 ProductActualCost money,
 Deviation float
 )
-Go
-
--- Add relation between fact table foreign keys to Primary keys of Dimensions
-AlTER TABLE FactProductSales ADD CONSTRAINT _
-FK_StoreID FOREIGN KEY (StoreID)REFERENCES DimStores(StoreID);
-AlTER TABLE FactProductSales ADD CONSTRAINT _
-FK_CustomerID FOREIGN KEY (CustomerID)REFERENCES Dimcustomer(CustomerID);
-AlTER TABLE FactProductSales ADD CONSTRAINT _
-FK_ProductKey FOREIGN KEY (ProductID)REFERENCES Dimproduct(ProductKey);
-AlTER TABLE FactProductSales ADD CONSTRAINT _
-FK_SalesPersonID FOREIGN KEY (SalesPersonID)REFERENCES Dimsalesperson(SalesPersonID);
-Go
-AlTER TABLE FactProductSales ADD CONSTRAINT _
-FK_SalesDateKey FOREIGN KEY (SalesDateKey)REFERENCES DimDate(DateKey);
-Go
-AlTER TABLE FactProductSales ADD CONSTRAINT _
-FK_SalesTimeKey FOREIGN KEY (SalesTimeKey)REFERENCES DimDate(TimeKey);
-Go
 
 ```
 c. AWS CLOUD
