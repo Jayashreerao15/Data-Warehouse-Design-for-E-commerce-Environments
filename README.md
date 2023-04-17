@@ -2,8 +2,8 @@
 
 ### AIM: 
 ```
-You will be constructing a data warehouse for a retail e-commerce store in this project. You would also be expected to answer
-a few particular issues about pricing optimization and inventory allocation in terms of design and implementation. In this
+To construct a data warehouse for a retail e-commerce store in this project. You would also be expected to answer a few
+particular issues about pricing optimization and inventory allocation in terms of design and implementation. In this
 project, you'll be attempting to answer the following two questions:
 
 -	Were the higher-priced items more prevalent in some markets?
