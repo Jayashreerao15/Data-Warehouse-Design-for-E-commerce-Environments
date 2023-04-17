@@ -1,4 +1,4 @@
-# PROJECT: Data Warehouse Design for E-commerce Environments
+## Data Warehouse Design for E-commerce Environments
 
 ### AIM: 
 ```
