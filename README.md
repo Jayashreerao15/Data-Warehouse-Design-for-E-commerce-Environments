@@ -174,6 +174,7 @@ $ python etl.py
 
 ![image](https://user-images.githubusercontent.com/74660507/232369212-53c82fc6-60db-472f-906b-b6337e8aa367.png)
 
+4. The created Pipeline Model can be used for further Machine Learning algorithms using the Cloud servers.
 
 ### Result:
 Thus, a Data Warehouse and a ETL Data Pipeline is created using the Excel Power Query for Data Warehouse Design for E-commerce Environments.
