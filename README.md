@@ -208,5 +208,13 @@ $ python etl.py
 
 4. The created Pipeline Model can be used for further Machine Learning algorithms using the Cloud servers.
 
-### Result:
+### CONCLUSION:
+
+-	Were the higher-priced items more prevalent in some markets?
+  Yes, higher-priced items are more prevalent in some markets because of the quality and interest of the customers.
+  
+-	Should inventory be reallocated or prices adjusted based on location?
+  No, inventory does'nt have to be re-allocated for the prices. Prices should be adjusted based on the location and the currency used by the country.
+  
+### RESULT:
 Thus, a Data Warehouse and a ETL Data Pipeline is created using the Excel Power Query for Data Warehouse Design for E-commerce Environments.
